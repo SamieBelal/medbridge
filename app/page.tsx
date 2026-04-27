@@ -51,8 +51,8 @@ export default function LandingPage() {
               <Link
                 href="/eligibility"
                 className={cn(
-                  buttonVariants({ size: "lg", variant: "outline" }),
-                  "border-white/30 text-white hover:bg-white/10 text-base h-12 px-6"
+                  buttonVariants({ size: "lg" }),
+                  "border-2 border-white/40 bg-transparent text-white hover:bg-white/10 text-base h-12 px-6"
                 )}
               >
                 Check My Insurance
